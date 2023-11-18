@@ -5,6 +5,16 @@ document.addEventListener('DOMContentLoaded', function() {
   const hole3 = document.getElementById('3');
   const hole4 = document.getElementById('4');
   const hole5 = document.getElementById('5');
+  const hole1Inside = document.getElementById('1in');
+  const hole2Inside = document.getElementById('2in');
+  const hole3Inside = document.getElementById('3in');
+  const hole4Inside = document.getElementById('4in');
+  const hole5Inside = document.getElementById('5in');
+  const hole1Mole = document.getElementById('1ml');
+  const hole2Mole = document.getElementById('2ml');
+  const hole3Mole = document.getElementById('3ml');
+  const hole4Mole = document.getElementById('4ml');
+  const hole5Mole = document.getElementById('5ml');
   const display = document.querySelector('.display');
 
 let moleLocation = undefined;
@@ -87,29 +97,39 @@ function setMoleLocation(){
 
 function setHoleColor(){
   if(moleLocation == 1){
-    hole1.style = 'background-color: black;'
+    hole1Inside.style = 'background-color: rgb(80, 35, 0);'
+    hole1Mole.style = "visibility: visible;"
   }else{
-    hole1.style = 'background-color: green;'
+    hole1Inside.style = ' background-color: rgb(160, 72, 0);'
+    hole1Mole.style = "visibility: hidden;"
   }
   if(moleLocation == 2){
-    hole2.style = 'background-color: black;'
+    hole2Inside.style = 'background-color: rgb(80, 35, 0);'
+    hole2Mole.style = "visibility: visible;"
   }else{
-    hole2.style = 'background-color: green;'
+    hole2Inside.style = ' background-color: rgb(160, 72, 0);'
+    hole2Mole.style = "visibility: hidden;"
   }
   if(moleLocation == 3){
-    hole3.style = 'background-color: black;'
+    hole3Inside.style = 'background-color: rgb(80, 35, 0);'
+    hole3Mole.style = "visibility: visible;"
   }else{
-    hole3.style = 'background-color: green;'
+    hole3Inside.style = ' background-color: rgb(160, 72, 0);'
+    hole3Mole.style = "visibility: hidden;"
   }
   if(moleLocation == 4){
-    hole4.style = 'background-color: black;'
+    hole4Inside.style = 'background-color: rgb(80, 35, 0);'
+    hole4Mole.style = "visibility: visible;"
   }else{
-    hole4.style = 'background-color: green;'
+    hole4Inside.style = ' background-color: rgb(160, 72, 0);'
+    hole4Mole.style = "visibility: hidden;"
   }
   if(moleLocation == 5){
-    hole5.style = 'background-color: black;'
+    hole5Inside.style = 'background-color: rgb(80, 35, 0);'
+    hole5Mole.style = "visibility: visible;"
   }else{
-    hole5.style = 'background-color: green;'
+    hole5Inside.style = ' background-color: rgb(160, 72, 0);'
+    hole5Mole.style = "visibility: hidden;"
   }
 }
 
