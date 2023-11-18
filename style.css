@@ -1,0 +1,52 @@
+body{
+  background-color: green;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin-top: 15vh;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+
+.hole{
+  height: 25vh;
+  width: 25vh;
+  display: block;
+
+
+
+}
+
+.holeInside{
+  height: 5vh;
+  width: 25vh;
+position: relative;
+top: 75%;
+ background-color: rgb(160, 72, 0);
+border-radius: 50%;
+
+}
+.mole{
+  width: 12vh;
+  height: 15vh;
+  position: relative;
+visibility: hidden;
+top: 15%;
+left: 25%;
+  border-radius: 20%;
+  background-color: rgb(110, 81, 0);
+}
+
+.display{
+  font-size: 10vw;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  margin-top: 15vh;
+}
